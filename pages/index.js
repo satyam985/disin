@@ -2,7 +2,7 @@ import React from 'react';
 import TopHeader from '../components/_App/TopHeader';
 import Navbar from '../components/_App/Navbar';
 import HeroSlider from '../components/HomeOne/HeroSlider';
-import Stats from '../components/HomeOne/Stats';
+import HomeStats from '../components/HomeOne/HomeStats';
 import AboutSection from '../components/HomeOne/AboutSection';
 import Services from '../components/HomeOne/Services';
 import OurExpertise from '../components/HomeOne/OurExpertise';
@@ -23,7 +23,7 @@ const Index = () => {
             <HeroSlider />
             
 
-            <Stats />
+            <HomeStats />
 
             <TestimonialSlider />
 
