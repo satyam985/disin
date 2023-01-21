@@ -33,7 +33,7 @@ const HeroSlider = () => {
                 {...options}
             >
 
-                <div className="slider-item slider-item-two slider-item-img">
+                <div className="slider-item slider-item-two slider-item-img-five">
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">

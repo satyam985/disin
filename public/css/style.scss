@@ -395,7 +395,7 @@ button {
 
 /*-- Home Slider --*/
 .slider-item-img {
-    background-image: url('/images/home-one/home-slider-bg.jpg');
+    background-image: url('/images/home-one/MPMMCC.jpg');
 }
 .slider-item {
     background-size: cover;
@@ -1484,6 +1484,10 @@ footer {
 .slider-item-img-four {
     background-image: url('/images/home-two/home-2-slider3.jpg');
 }
+.slider-item-img-five {
+    background-image: url("/images/home-one/MPMMMC.jpg");
+  }
+
 .home-slider-two {
     &.owl-theme {
         .owl-nav {
