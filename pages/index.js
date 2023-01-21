@@ -11,6 +11,7 @@ import OurDoctors from '../components/Common/OurDoctors';
 import LatestBlogPost from '../components/Common/LatestBlogPost';
 import NewsletterForm from '../components/Common/NewsletterForm';
 import Footer from '../components/_App/Footer';
+import TestimonialSlider from '../components/Common/TestimonialSlider';
 
 const Index = () => {
     return (
@@ -20,8 +21,11 @@ const Index = () => {
             <Navbar />
 
             <HeroSlider />
+            
 
             <Stats />
+
+            <TestimonialSlider />
 
             <AboutSection />
 

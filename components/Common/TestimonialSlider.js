@@ -6,9 +6,10 @@ const options = {
     items:1,
     loop:true,
     margin:0,
-    nav: true,
+    nav: false,
     dots: false,
-    autoplay:false,
+    autoplay:true,
+    autoplayTimeout: 4000,
     autoplayHoverPause:true,
     navText: [
         "<i class='icofont-simple-left'></i>",
@@ -23,13 +24,13 @@ const TestimonialSlider = () => {
         setDisplay(true);
     }, [])
     return (
-        <div className="review-area ptb-100">
+        <div className="pt-100">
             <div className="container">
                 {display ? <OwlCarousel 
                     className="feedback-slider owl-carousel owl-theme"
                     {...options}
                 >
-                    <div className="feedback-item">
+                    <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
                         <div className="client-img">
                             <img src="/images/clients/client1.png" alt="Feedback" />
                             <h3>Adision Smith</h3>
@@ -37,7 +38,7 @@ const TestimonialSlider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
                     </div>
 
-                    <div className="feedback-item">
+                    <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
                         <div className="client-img">
                             <img src="/images/clients/client2.png" alt="Feedback" />
                             <h3>John Cena</h3>
@@ -45,7 +46,7 @@ const TestimonialSlider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
                     </div>
 
-                    <div className="feedback-item">
+                    <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
                         <div className="client-img">
                             <img src="/images/clients/client3.png" alt="Feedback" />
                             <h3>Mac Smith</h3>
@@ -53,7 +54,7 @@ const TestimonialSlider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
                     </div>
 
-                    <div className="feedback-item">
+                    <div className="feedback-item shadow p-3 mb-4 bg-white rounded">
                         <div className="client-img">
                             <img src="/images/clients/client4.png" alt="Feedback" />
                             <h3>Shane Watson</h3>
