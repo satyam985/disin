@@ -15,9 +15,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      <a>
-                        For Patient care & queries
-                      </a>
+                      <a>For Patient care & queries</a>
                       <a href="mailto:hello@disin.com">ams@mpmmcc.tmc.gov.in</a>
                     </li>
                     <li>
