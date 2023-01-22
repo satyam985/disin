@@ -42,8 +42,8 @@ const HeroSlider = () => {
                                         <img className='w-50' src="/images/covid-circle-image.png" alt="Shape" />
                                     </div>
 
-                                    <h1>Stay Home And Be Aware About Covid-19</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                    <h1>CANCER IS CURABLE IF DETECTED EARLY</h1>
+                                    <p>Surviving a day with Cancer is an achievement, so hold on and make your way out of it like a fighter.</p>
                                 </div>
                             </div>
                         </div>

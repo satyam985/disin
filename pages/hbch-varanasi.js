@@ -21,7 +21,7 @@ const HBCHVaranasi = () => {
         pageSubtitle="Tata Memorial Centre"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="HBCH"
+        activePageText=" HBCH"
         bgImage="page-title-one"
       />
 
@@ -29,7 +29,95 @@ const HBCHVaranasi = () => {
         <div className="container">
           <div className="row align-items-start">
             <div className="col-lg-6">
-              <div className="row">
+            <div className="doctor-details-item doctor-details-left">
+                      <img src="/images/HBCH.jpg" alt="Doctor" />
+
+                      <div className="doctor-details-contact">
+                        <h3>Contact info</h3>
+                        <ul>
+                          <li>
+                            <i className="icofont-ui-call"></i>
+                            Call: +07 554 332 322
+                          </li>
+                          <li>
+                            <i className="icofont-ui-message"></i>
+                            hello@disin.com
+                          </li>
+                          <li>
+                            <i className="icofont-location-pin"></i>
+                            Old Loco Colony, Shivpurwa, Varanasi, Uttar Pradesh 221010
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="doctor-details-work">
+                        <h3>Working hours</h3>
+                        <div className="appointment-item-two-right">
+                          <div className="appointment-item-content">
+                            <ul>
+                              <li>
+                                Monday <span>9:00 AM - 8:00 PM</span>
+                              </li>
+                              <li>
+                                Tuesday <span>9:00 AM - 8:00 PM</span>
+                              </li>
+                              <li>
+                                Wednesday <span>9:00 AM - 8:00 PM</span>
+                              </li>
+                              <li>
+                                Sunday <span>9:00 AM - 8:00 PM</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="about-item about-right">
+                <img src="/images/about-shape1.png" alt="About" />
+                <h2>The Hospitals</h2>
+                <p>
+                  HBCH was commissioned on 1st May 2018 as a 179-bedded hospital
+                  while the 352-bedded MPMMCC was commissioned on 19th February,
+                  2019. Both HBCH and MPMMCC were formally inaugurated by
+                  Hon’ble Prime Minister, Shri Narendra Modi Ji on 19th February
+                  2019. The distance between HBCH, Varanasi and MPMMCC, Varanasi
+                  is about 8 kilometers with driving time of 20 minutes. There
+                  is very good road connectivity between the two hospitals. Both
+                  HBCH and MPMMCC are working as complementary units under the
+                  administrative control of Director, HBCH & MPMMCC.
+                </p>
+                <p>
+                  Our hospitals cater to the "cancer belt of India”, a
+                  population of nearly 40 crore people living in the States of
+                  Uttar Pradesh, Uttarakhand, Bihar, Jharkhand, Madhya Pradesh,
+                  Chhattisgarh, etc. The area not only has the highest burden of
+                  cancer cases but also is plagued with acute shortage of
+                  trained manpower to deal with management of cancer. The
+                  situation is going to worsen in the next couple of decades due
+                  to rapid urbanization in these areas. Through our twin
+                  hospitals, we are bringing comprehensive and very high-quality
+                  cancer care at affordable costs to the doorsteps of patients
+                  of Varanasi (Uttar Pradesh), its neighboring districts and
+                  adjoining States.
+                </p>
+                {/* <p>
+                  Fifteen (15) acre of land within the 1360-acre campus of BHU
+                  was donated to the Department of Atomic Energy (DAE),
+                  Government of India (GOI) to construct a cancer hospital with
+                  the latest and modern facilities. The construction cost was
+                  borne by the Tata Trusts and the hospital is managed by the
+                  Tata Memorial Centre (TMC), Mumbai.
+                </p>
+                <p>
+                  The Memorandum of Understanding (MoU) for the establishment of
+                  MPMMCC was made on 21st September 2017. The construction by
+                  Tata Trust began in April 2018 and was completed in a record
+                  time by end February 2019.
+                </p> */}
+                <div className="row">
                 <p>
                   HBCH, Varanasi is situated at Lahartara, near to Varanasi
                   Cantonment Railway Station. It is a three storey building with
@@ -81,76 +169,12 @@ const HBCHVaranasi = () => {
                   </tbody>
                 </table>
               </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="about-item about-right">
-                <img src="/images/about-shape1.png" alt="About" />
-                <h2>The Hospitals</h2>
-                <p>
-                  HBCH was commissioned on 1st May 2018 as a 179-bedded hospital
-                  while the 352-bedded MPMMCC was commissioned on 19th February,
-                  2019. Both HBCH and MPMMCC were formally inaugurated by
-                  Hon’ble Prime Minister, Shri Narendra Modi Ji on 19th February
-                  2019. The distance between HBCH, Varanasi and MPMMCC, Varanasi
-                  is about 8 kilometers with driving time of 20 minutes. There
-                  is very good road connectivity between the two hospitals. Both
-                  HBCH and MPMMCC are working as complementary units under the
-                  administrative control of Director, HBCH & MPMMCC.
-                </p>
-                <p>
-                  Our hospitals cater to the "cancer belt of India”, a
-                  population of nearly 40 crore people living in the States of
-                  Uttar Pradesh, Uttarakhand, Bihar, Jharkhand, Madhya Pradesh,
-                  Chhattisgarh, etc. The area not only has the highest burden of
-                  cancer cases but also is plagued with acute shortage of
-                  trained manpower to deal with management of cancer. The
-                  situation is going to worsen in the next couple of decades due
-                  to rapid urbanization in these areas. Through our twin
-                  hospitals, we are bringing comprehensive and very high-quality
-                  cancer care at affordable costs to the doorsteps of patients
-                  of Varanasi (Uttar Pradesh), its neighboring districts and
-                  adjoining States.
-                </p>
-                {/* <p>
-                  Fifteen (15) acre of land within the 1360-acre campus of BHU
-                  was donated to the Department of Atomic Energy (DAE),
-                  Government of India (GOI) to construct a cancer hospital with
-                  the latest and modern facilities. The construction cost was
-                  borne by the Tata Trusts and the hospital is managed by the
-                  Tata Memorial Centre (TMC), Mumbai.
-                </p>
-                <p>
-                  The Memorandum of Understanding (MoU) for the establishment of
-                  MPMMCC was made on 21st September 2017. The construction by
-                  Tata Trust began in April 2018 and was completed in a record
-                  time by end February 2019.
-                </p> */}
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6">
-              <h2>Services</h2>
-              <ul>
-                <li>
-                  <Link href="/clinical-services" activeClassName="active">
-                    <a className="nav-link">Clinical Services</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/diagnostic-services" activeClassName="active">
-                    <a className="nav-link">Diagnostic Services</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/ancillary-services" activeClassName="active">
-                    <a className="nav-link">Ancillary Services</a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="col-lg-6 about-item about-right">
+            
+            <div className="col about-item about-right">
               <h2>Hospital Services</h2>
               <p>
                 HBCH, Varanasi mainly caters to Paediatric Medical Oncology as
@@ -188,9 +212,29 @@ const HBCHVaranasi = () => {
                 Gallbladder Cancer.
               </p>
             </div>
+            {/* <div className="col">
+              <h2>Services</h2>
+              <ul>
+                <li>
+                  <Link href="/clinical-services" activeClassName="active">
+                    <a className="nav-link">Clinical Services</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/diagnostic-services" activeClassName="active">
+                    <a className="nav-link">Diagnostic Services</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/ancillary-services" activeClassName="active">
+                    <a className="nav-link">Ancillary Services</a>
+                  </Link>
+                </li>
+              </ul>
+            </div> */}
           </div>
           <div className="row">
-          <h2 className="text-center mb-4">Major Equipment</h2>
+          <h2 className="text-center mb-4">MAJOR EQUIPMENTS</h2>
           </div>
           <div className="row">
             <div className="col-md-6">
